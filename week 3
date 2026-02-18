@@ -1,0 +1,53 @@
+
+Perform data analysis using NumPy and Pandas.
+code:
+
+import numpy as np
+import pandas as pd
+
+# NumPy Example
+arr = np.array([10, 20, 30, 40])
+print("NumPy Array:", arr)
+print("Mean:", np.mean(arr))
+print("Standard Deviation:", np.std(arr))
+
+# Pandas Example
+df = pd.read_csv("dataset.csv")
+
+print("\nDataset:")
+print(df)
+
+print("\nAverage Salary:", df["Salary"].mean())
+
+print("\nAverage Salary by City:")
+print(df.groupby("City")["Salary"].mean())
+
+Data used:
+Name,Age,City,Salary
+Aman,25,Hyderabad,50000
+Riya,28,Chennai,60000
+Rahul,22,Bangalore,45000
+Sneha,30,Hyderabad,70000
+Kiran,27,Chennai,52000
+Anjali,24,Bangalore,48000
+
+
+# Week 3 – NumPy and Pandas
+
+## Topics Covered
+- NumPy Arrays
+- Array Operations
+- Broadcasting
+- Pandas DataFrames
+- Reading CSV files
+- Grouping and Aggregation
+
+- Cleaned dataset
+- Calculated salary statistics
+- Performed group-by analysis
+
+## Skills Gained
+- Data manipulation
+- Statistical analysis
+- Working with structured datasets
+
