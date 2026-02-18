@@ -1,0 +1,45 @@
+
+Clean dataset by removing duplicates and filtering values.
+code:
+
+
+data = [10, 20, 20, 30, 40, 40, 50]
+
+# Remove duplicates
+unique_data = list(set(data))
+
+# Filter values greater than 25
+filtered_data = [x for x in unique_data if x > 25]
+
+print("Original Data:", data)
+print("Unique Data:", unique_data)
+print("Filtered Data (>25):", filtered_data)
+
+
+# Function Example
+def sum_of_squares(numbers):
+    return sum([x**2 for x in numbers])
+
+nums = [1, 2, 3, 4]
+print("Sum of Squares:", sum_of_squares(nums))
+
+
+# Week 2 – Data Structures and Functions
+
+## Topics Covered
+- Lists
+- Tuples
+- Dictionaries
+- Sets
+- Functions
+- List Comprehension
+
+Performed data cleaning:
+- Removed duplicates
+- Filtered data
+- Applied transformation using functions
+
+## Skills Gained
+- Data transformation
+- Basic cleaning techniques
+- Writing reusable functions
