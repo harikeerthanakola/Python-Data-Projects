@@ -1,0 +1,37 @@
+
+Temperature Converter
+Converts Celsius to Fahrenheit.
+code:
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+
+print("Temperature in Fahrenheit:", fahrenheit)
+
+
+
+Calculate the average temperature from weekly data.
+code:
+
+temperatures = [30, 32, 28, 35, 31, 29, 33]
+
+average = sum(temperatures) / len(temperatures)
+
+print("Weekly Temperatures:", temperatures)
+print("Average Temperature:", average)
+
+
+# Week 1 – Introduction to Python Programming
+
+## Topics Covered
+- Variables and Data Types
+- Input and Output
+- Conditional Statements
+- Loops
+- Basic Mathematical Operations
+
+Created a temperature processing script to calculate average temperature.
+
+## Skills Gained
+- Writing basic Python scripts
+- Handling user input
+- Performing calculations
