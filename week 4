@@ -1,0 +1,51 @@
+
+Visualize dataset using Matplotlib and Seaborn.
+code:
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = pd.read_csv("dataset.csv")
+
+# Scatter Plot
+plt.figure()
+plt.scatter(df["Age"], df["Salary"])
+plt.xlabel("Age")
+plt.ylabel("Salary")
+plt.title("Age vs Salary")
+plt.show()
+
+# Histogram
+plt.figure()
+plt.hist(df["Salary"])
+plt.title("Salary Distribution")
+plt.xlabel("Salary")
+plt.ylabel("Frequency")
+plt.show()
+
+# Heatmap
+plt.figure()
+sns.heatmap(df.corr(), annot=True)
+plt.title("Correlation Heatmap")
+plt.show()
+
+# Week 4 – Data Visualization
+
+## Topics Covered
+- Matplotlib
+- Scatter Plots
+- Histograms
+- Seaborn
+- Heatmaps
+
+Created visualizations to analyze:
+- Age vs Salary relationship
+- Salary distribution
+- Feature correlations
+
+## Skills Gained
+- Data storytelling
+- Visual analytics
+- Plot customization
+
