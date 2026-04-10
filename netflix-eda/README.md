@@ -35,3 +35,9 @@ Analyze Netflix content to identify trends in movies, TV shows, genres, and coun
 
 * netflix_analysis.ipynb
 * raw_data.csv
+
+##  Dataset
+
+TMDB 5000 Movie Dataset
+Download from Kaggle: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
