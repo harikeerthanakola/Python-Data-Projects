@@ -29,3 +29,8 @@ Build a content-based movie recommender using text features like genres, cast, k
 * notebook.ipynb
 * movies.pkl
 * similarity.pkl
+
+##  Dataset
+
+TMDB 5000 Movie Dataset
+Download from Kaggle: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
